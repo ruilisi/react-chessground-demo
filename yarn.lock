@@ -2677,6 +2677,11 @@ chardet@^0.7.0:
   resolved "https://registry.npm.taobao.org/chardet/download/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha1-kAlISfCTfy7twkJdDSip5fDLrZ4=
 
+chessground@^7.6.12:
+  version "7.6.12"
+  resolved "https://registry.npmjs.org/chessground/-/chessground-7.6.12.tgz#f2ee79eca4baf15aa6061c912bab6cd7b7b1ae7b"
+  integrity sha512-23Esfh6wxiyPkkC2cFfzOrU1zABXJPofPAUpu2lFGsTCiVwgNNXlC76G7FoDdA3OBi4Mud5wATzikkyLrCQssQ==
+
 chokidar@^2.0.2, chokidar@^2.0.4, chokidar@^2.1.8:
   version "2.1.8"
   resolved "https://registry.npm.taobao.org/chokidar/download/chokidar-2.1.8.tgz#804b3a7b6a99358c3c5c61e71d8728f041cff917"
@@ -8319,6 +8324,14 @@ react-app-polyfill@^1.0.5:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
+react-chessground@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/react-chessground/-/react-chessground-1.1.0.tgz#e407db6e65eab475e590d64909cbd2be132d1027"
+  integrity sha512-TKcU8B6UoacaoWeqzeqc2IR4U58GO3a0VpZiOxNwPzqS0VHuNSj1J83ZxNcUyNqJwHUOXFxS5lVHKdAuY5YoRw==
+  dependencies:
+    chessground "^7.6.12"
+    react-scripts "^3.3.0"
+
 react-dev-utils@^10.0.0:
   version "10.0.0"
   resolved "https://registry.npm.taobao.org/react-dev-utils/download/react-dev-utils-10.0.0.tgz?cache=0&sync_timestamp=1575504343054&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-dev-utils%2Fdownload%2Freact-dev-utils-10.0.0.tgz#bd2d16426c7e4cbfed1b46fb9e2ac98ec06fcdfa"
@@ -8369,10 +8382,10 @@ react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.npm.taobao.org/react-is/download/react-is-16.12.0.tgz?cache=0&sync_timestamp=1576681363662&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-is%2Fdownload%2Freact-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha1-LMD+D7p0LZf9UnxCoTvsTusGJBw=
 
-react-scripts@3.3.0:
+react-scripts@3.3.0, react-scripts@^3.3.0:
   version "3.3.0"
-  resolved "https://registry.npm.taobao.org/react-scripts/download/react-scripts-3.3.0.tgz#f26a21f208f20bd04770f43e50b5bbc151920c2a"
-  integrity sha1-8moh8gjyC9BHcPQ+ULW7wVGSDCo=
+  resolved "https://registry.npmjs.org/react-scripts/-/react-scripts-3.3.0.tgz#f26a21f208f20bd04770f43e50b5bbc151920c2a"
+  integrity sha512-hzPc6bxCc9GnsspWqk494c2Gpd0dRbk/C8q76BNQIENi9GMwoxFljOEcZoZcpFpJgQ45alxFR6QaLt+51qie7g==
   dependencies:
     "@babel/core" "7.7.4"
     "@svgr/webpack" "4.3.3"
