@@ -1,16 +1,5 @@
 import React from "react";
-import logo from "./logo.svg";
 import Chessground from "react-chessground";
-import "react-chessground/dist/assets/chessground.css";
-import "react-chessground/dist/assets/theme.css";
-import "./App.css";
+import "react-chessground/dist/styles/chessground.css";
 
-function App() {
-  return (
-    <div>
-      <Chessground />
-    </div>
-  );
-}
-
-export default App;
+export default () => <Chessground />;

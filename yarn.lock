@@ -8324,10 +8324,10 @@ react-app-polyfill@^1.0.5:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
-react-chessground@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/react-chessground/-/react-chessground-1.1.0.tgz#e407db6e65eab475e590d64909cbd2be132d1027"
-  integrity sha512-TKcU8B6UoacaoWeqzeqc2IR4U58GO3a0VpZiOxNwPzqS0VHuNSj1J83ZxNcUyNqJwHUOXFxS5lVHKdAuY5YoRw==
+react-chessground@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/react-chessground/-/react-chessground-1.5.0.tgz#fdc03c100b7d87053dc23e7015002261a3369103"
+  integrity sha512-wwlfGHa41yvWa295dEgrzbvAR5GutYAYUd7I5Z86RfhSKNg1/vVF0L4LQ6YGdS5DUZoN2MHQzMECli3b0ELE/g==
   dependencies:
     chessground "^7.6.12"
     react-scripts "^3.3.0"
